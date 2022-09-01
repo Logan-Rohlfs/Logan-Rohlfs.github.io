@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <style>
+    .hbutton {
+	background-color: #6D72C3;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 10%;
+	height: 10%;
+    }
+    .vbutton {
+	background-color: #6D72C3;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 10%;
+	height: 10%;
+    }
+    
+  </style>
+  <head>
+    <meta charset="UTF-8">
+    <title>Digital Portfolio</title>
+    <link rel="stylesheet" href="./blob.css">
+    </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+    <!-- partial -->
+    <script  src="./blob.js"></script>
+    
+    <!-- Contact info -->  
+    <div style = "position:fixed; left:50px; top:40px;">
+      <p id="infobox"></p>
+      <div style = "position:relative; left:15px; top:-175px;">
+	<h1>Contact Info</h1>
+	<p>214-901-8750</p>
+	<p>loganrohlfs76@gmail.com</p>
+      </div>
+    </div>
+    
+    <!-- Classes -->
+    <div style = "position:fixed; left:450px; top:40px;">
+      <p id="infobox"></p>
+      <div style = "position:relative; left:15px; top:-175px;">
+	<h1>Experiences</h1>
+	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/CS-I/index.html" class="hbutton">CS-I</a>
+	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/CS-II/index.html" class="hbutton">CS-II</a>
+	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/CS-III/index.html" class="hbutton">CS-III</a>
+      </div>
+    </div>
+
+    <!-- Classes -->
+    <div style = "position:fixed; left:900px; top:40px;">
+      <p id="linkbox"></p>
+      <div style = "position:relative; left:15px; top:-275px;">
+	<h1>Resources</h1>
+	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/about.html" class="vbutton">About me</a>
+	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/importance.html" class="vbutton">Importance</a>
+	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/projects/index.html" class="vbutton">Projects</a>
+	
+      </div>
+    </div>
+    
+  </body>
+</html>
