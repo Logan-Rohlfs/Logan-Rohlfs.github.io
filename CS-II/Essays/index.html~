@@ -30,13 +30,13 @@
   <head>
     <meta charset="UTF-8">
     <title>Digital Portfolio</title>
-    <link rel="stylesheet" href="./blob.css">
+    <link rel="stylesheet" href="../../styles.css">
     </head>
   <body>
     <!-- partial:index.partial.html -->
     <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
     <!-- partial -->
-    <script  src="./blob.js"></script>
+    <script  src="../../blob.js"></script>
     
     <!-- Contact info -->  
     <div style = "position:fixed; left:50px; top:40px;">
@@ -64,9 +64,8 @@
       <p id="linkbox"></p>
       <div style = "position:relative; left:15px; top:-275px;">
 	<h1>Resources</h1>
-	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/about.html" class="vbutton">About me</a>
-	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/importance.html" class="vbutton">Importance</a>
-	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/projects/index.html" class="vbutton">Projects</a>
+	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/CS-II/Essays/fingerprint.html" class="vbutton">Fingerprints</a>
+	<a href="https://www.codermerlin.com/users/logan-rohlfs/Digital%20Portfolio/CS-II/Essays/sentience.html" class="vbutton">AI Sentience</a>
 	
       </div>
     </div>
