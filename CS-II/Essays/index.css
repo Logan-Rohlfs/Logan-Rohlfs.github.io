@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lucida+Sans+Unicode&display=swap');
+
+body {
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    background-color: #1a1b26;
+    color: #c0caf5;
+}
+
+h1 {
+    font-size: 1.4em;
+    font-weight: 600;
+    line-height: 1.2em;
+    margin-bottom: 10px;
+    color: #c0caf5;
+}
+
+
+p {
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    color: #c0caf5;
+}
+
+.title-box {
+    text-align: center;
+    background-color: #414868;
+}
+
+.text-box-light {
+    text-align: center;
+    background-color: #414868;
+}
+
+.text-box-dark {
+    text-align: center;
+    background-color: #24283b;
+}
+
+.references {
+    text-align: center;
+    background-color: #414868;
+}
