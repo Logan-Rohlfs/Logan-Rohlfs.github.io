@@ -1,4 +1,4 @@
-:root {
+usto:root {
     --primary: #171722;
     --secondary: #434461;
     --tertiary: #70719c;
@@ -38,10 +38,10 @@ h3 {
     text-align: center;
     margin: 10px;
     color: #9aa5ce; font-family: Consolas, monaco, monospace;
-    font-size: 22px;
+    font-size: 20px;
     font-style: normal;
     font-variant: normal;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 1.5em; }
 
 p {
