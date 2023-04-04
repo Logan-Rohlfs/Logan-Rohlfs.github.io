@@ -4,7 +4,7 @@ usto:root {
     --tertiary: #70719c;
     --focused: #434461;
     --dark: #101017;
-    --primarytext: #9aa5ce;
+    --primary-text: #9aa5ce;
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 h1 {
     text-align: center;
     margin: 10px;
-    color: #9aa5ce;
+    color: var(--primary-text);
     font-family: Consolas, monaco, monospace;
     font-size: 32px;
     font-style: normal;
@@ -27,7 +27,7 @@ h1 {
 h2 {
     text-align: center;
     margin: 10px;
-    color: #9aa5ce; font-family: Consolas, monaco, monospace;
+    color: var(--primary-text); font-family: Consolas, monaco, monospace;
     font-size: 26px;
     font-style: normal;
     font-variant: normal;
@@ -37,7 +37,7 @@ h2 {
 h3 {
     text-align: center;
     margin: 10px;
-    color: #9aa5ce; font-family: Consolas, monaco, monospace;
+    color: var(--primary-text); font-family: Consolas, monaco, monospace;
     font-size: 20px;
     font-style: normal;
     font-variant: normal;
@@ -47,7 +47,7 @@ h3 {
 p {
     text-align: center;
     margin: 10px;
-    color: #9aa5ce; font-family: Consolas, monaco, monospace;
+    color: var(--primary-text); font-family: Consolas, monaco, monospace;
     font-size: 18px;
     font-style: normal;
     font-variant: normal;
@@ -57,7 +57,7 @@ p {
 .date {
     text-align: center;
     margin: 10px;
-    color: #9aa5ce; font-family: Consolas, monaco, monospace;
+    color: var(--primary-text); font-family: Consolas, monaco, monospace;
     font-size: 24px;
     font-style: normal;
     font-variant: normal;
@@ -96,7 +96,7 @@ p {
     border-radius: 4px;
     background-color: var(--tertiary);
     border: none;
-    color: var(--primarytext);
+    color: var(--primary-text);
     text-align: center;
     font-size: 24px;
     padding: 10px;
@@ -135,6 +135,6 @@ p {
     margin: 5px;
     font-size: 25px;
     background-color: var(--tertiary);
-    color: var(--primarytext)
+    color: var(--primary-text)
 }
 
